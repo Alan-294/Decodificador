@@ -1,10 +1,26 @@
 .container_input{
     display: flex;
     justify-content: space-between;  
-    height: 450px;
+    height: 400px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
+}
+
+.rodape{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.aviso{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 0% 5%;
 }
 
 .container_codar {
@@ -16,6 +32,7 @@
     overflow-wrap: break-word;
     font-size: 150%;
     background-color: rgb(221, 221, 221);
+    border-radius: 8px;
     border: none;
 }
 
@@ -27,8 +44,8 @@
     box-sizing: border-box;
     overflow-wrap: break-word;
     font-size: 150%;
-    border-radius: 1.8%;
-    border: 2px solid;
+    border-radius: 8px;
+    border: 1px solid;
 }
 
 /*Css dos botões */
