@@ -6,7 +6,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <input class="entrada" type="text" name="tEmail" id="cBar"  placeholder="Insira o seu texto para ser codificado aqui"/>
-        <input class="entrada" type="text" name="tEmail" id="cBar"  placeholder="Insira o seu texto para ser codificado aqui"/>
+      <div class="container_input">
+      
+        <textarea id="decodado" placeholder="Insira o seu texto para ser codificado aqui"></textarea>
+            
+ 
+        <textarea id="codado" placeholder="Insira o seu texto para ser decodificado aqui"></textarea>
+        
+    </div>
+
+    <div class="botoes">
+        <button class="codificar"  onclick="codificar()" class="container__botao">Codificar</button>
+        <button class="decodificar"  onclick="decodificar()" class="container__botao">Decodificar</button>
+    </div>
+    
+    <script src="app.js" defer></script>
     </body>
 </html>

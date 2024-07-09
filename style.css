@@ -1,4 +1,34 @@
-.entrada{
-    height: 90%;
+.container_input{
+    display: flex;
+    justify-content: space-between;  
+    gap: 50px;
+}
+
+.container_input textarea {
+    height: 400px;
     width: 40%;
+    justify-content: space-between;
+    resize: none;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+.botoes{
+    justify-content: space-between;
+    gap:50px;
+}
+
+.codificar{
+    height: 40px;
+    width: 80ox;
+    border-radius: 20%;
+    background-color: white;
+    border: 2px solid;
+}
+.decodificar{
+    height: 40px;
+    width: 80ox;
+    border: 2px solid;
+    border-radius: 20%;
+    background-color: white;
 }
