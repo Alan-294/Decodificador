@@ -1,34 +1,61 @@
 .container_input{
     display: flex;
     justify-content: space-between;  
-    gap: 50px;
+    height: 450px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
-.container_input textarea {
-    height: 400px;
-    width: 40%;
+.container_codar {
+    height: 350px;
+    width: 30%;
     justify-content: space-between;
     resize: none;
     box-sizing: border-box;
     overflow-wrap: break-word;
+    font-size: 150%;
+    background-color: rgb(221, 221, 221);
+    border: none;
 }
 
-.botoes{
+.container_decodar {
+    height: 350px;
+    width: 30%;
     justify-content: space-between;
-    gap:50px;
+    resize: none;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-size: 150%;
+    border-radius: 1.8%;
+    border: 2px solid;
+}
+
+/*Css dos botões */
+.botoes{
+    height: 60px;
+    padding: 0.5% 5%;
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .codificar{
     height: 40px;
-    width: 80ox;
-    border-radius: 20%;
-    background-color: white;
-    border: 2px solid;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    background-color: rgb(124, 35, 241);
 }
 .decodificar{
     height: 40px;
-    width: 80ox;
-    border: 2px solid;
-    border-radius: 20%;
-    background-color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    background-color: rgb(124, 35, 241);
 }
