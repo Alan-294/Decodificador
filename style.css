@@ -51,11 +51,11 @@
 /*Css dos botões */
 .botoes{
     height: 60px;
-    padding: 0.5% 5%;
+    padding: 0.5% 5% 0% 5%;
     display: flex;
     background-color: rgb(221, 221, 221);
     justify-content: space-between;
-    gap: 50px;
+
 }
 
 .codificar{
@@ -67,6 +67,17 @@
     color: white;
     background-color: rgb(124, 35, 241);
 }
+
+.ccodificar{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    background-color: rgb(167, 102, 253);
+}
+
 .decodificar{
     height: 40px;
     width: 150px;

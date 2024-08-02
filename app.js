@@ -39,3 +39,26 @@ function decodificar(){
 
     document.getElementById('decodado').value = texto_decodificado;
 }
+
+document.getElementById('Ccodificar').addEventListener("click", async () => {
+    try {
+        const decodado = document.getElementById("decodado").value;
+        await navigator.clipboard.writeText(decodado);
+        alert("Texto copiado com sucesso: " + decodado)
+    } catch (err) {
+        console.error("Erro ao copiar texto: ", err);
+        alert("Falha ao copiar texto. Por favor, tente novamente.");
+    }
+});
+
+document.getElementById('Cdecodificar').addEventListener("click", async () => {
+    try {
+        const codado = document.getElementById("codado").value;
+        await navigator.clipboard.writeText(codado);
+        alert("Texto copiado com sucesso: " + codado)
+    } catch (err) {
+        console.error("Erro ao copiar texto: ", err);
+        alert("Falha ao copiar texto. Por favor, tente novamente.");
+    }
+});
+
