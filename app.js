@@ -61,4 +61,3 @@ document.getElementById('Cdecodificar').addEventListener("click", async () => {
         alert("Falha ao copiar texto. Por favor, tente novamente.");
     }
 });
-
